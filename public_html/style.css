@@ -145,7 +145,7 @@ nav ul li a{
 /* Destaque. */
 main{
     height: 75vh;
-    background: url(img/banner.jpg);
+    background: url(img/mdbanner.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -165,7 +165,7 @@ main h2{
 /* Sobre. */
 #sobre{
     padding: 50px 0px;
-    background: url(img/background.png);
+    background: url(img/bgmodelo1.png);
     background-size: cover;
     background-position: center;
 }
@@ -205,7 +205,7 @@ main h2{
 /* Wireframe. */
 #wireframe{
     padding: 50px 0px;
-    background: url(img/background.png);
+    background: url(img/bgmodelo1.png);
     background-size: cover;
     background-position: center;
 }
@@ -248,7 +248,7 @@ main h2{
 /* Rodapé. */
 address{
     padding: 35px 10px 50px 10px;
-    background: url(img/background2.png);
+    background: url(img/bgmodelo2.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -305,7 +305,7 @@ footer{
     }
     #social{
         margin: 0;
-    }
+    }    
 }
 
 /* Tablet Portait. */
@@ -326,8 +326,9 @@ footer{
     }
     main h2{
         font-size: 2em;
-    }
+    }    
 }
+
 /* Tablet Landscape. */
 @media (min-width: 992px) {
     
@@ -341,8 +342,9 @@ footer{
     /* Destaque. */
     main{
         height: 70vh;
-    }
+    }    
 }
+
 /* PC. */
 @media (min-width: 1200px) {
     /*body{ // Usado para teste.
@@ -394,6 +396,7 @@ footer{
         border-radius: 50%;
         margin-right: 50px;
     }
+
     /* One Page. */
     .Flex3{
         flex-direction: row;
@@ -426,5 +429,11 @@ footer{
     }
     .Flex6{
         flex-direction: row-reverse;
-    }
+    }    
+}
+
+/* Diminui o Temanho do logo do Twitter. */
+.Lgtwitter img{
+    width: 46px;
+    height: 46px;         
 }
