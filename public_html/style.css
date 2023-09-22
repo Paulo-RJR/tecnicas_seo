@@ -238,9 +238,9 @@ main h2{
     margin-top: 50px;
     text-align: center;
 }
-#todos a{
+#todos a{        
     text-decoration: none;
-    color: #000;
+    color: #1E90FF;
     font-weight: 700;
     font-size: 1.25em;
 }
@@ -380,7 +380,7 @@ footer{
         color: #343538;
     }
     nav ul li a:hover{
-        color: #c00;
+        color: #1E90FF;
     }
 
     /* Sobre. */
@@ -430,10 +430,4 @@ footer{
     .Flex6{
         flex-direction: row-reverse;
     }    
-}
-
-/* Diminui o Temanho do logo do Twitter. */
-.Lgtwitter img{
-    width: 46px;
-    height: 46px;         
 }
